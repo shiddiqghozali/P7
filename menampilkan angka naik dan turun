@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int C;
+    cout <<"Menampilkan Angka Naik"<<endl;
+    for (C=0; C<=10; C++) {
+        if (C==10){
+        cout<<C;
+        }else{
+        cout <<C<<",";
+        }
+    }
+    cout<<endl;
+    cout <<"Menampilkan Angka Turun"<<endl;
+    for (C=10; C>=0; C--) {
+            if (C==0){
+            cout <<C;
+        }else{
+        cout <<C<<",";
+    }
+    }
+    return 0;
+
+}
+
+
