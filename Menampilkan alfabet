@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char a;
+
+    cout <<"Alfabet"<<endl<<endl;
+    for (a = 'J'; a>='A'; a--) {
+    if (a=='A') {
+    cout <<a;
+    }else {
+        cout<<a<<",";
+    }
+    }
+    cout <<endl<<endl;
+
+    for (a = 'A'; a<='J'; a++) {
+    if (a=='J'){
+    cout <<a;
+    }else {
+        cout<<a<<","; }
+    }
+
+}
