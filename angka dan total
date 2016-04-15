@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n, angka, total=0, i;
+    cout << "Jumlah Angka = ";
+    cin >>n;
+
+    cout<<endl<<endl;
+
+    for (i=1; i<=n; i++) {
+    cout<<"Masukkan Angka Loe "<<i<<" : ";
+    cin >>angka;
+    total=total+angka;
+    }
+    cout<<endl<<"Total Kabeh Angka = " <<total<<endl;
+    return 0;
+}
